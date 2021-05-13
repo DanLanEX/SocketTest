@@ -34,7 +34,7 @@ public class SocketTestClient extends JPanel implements NetService{
     private JPanel buttonPanel;
     private JPanel sendPanel;
 
-    private JLabel ipLabel = new JLabel("IP Address");
+    private JLabel ipLabel = new JLabel("IP 地址");
     private JLabel portLabel = new JLabel("Port");
     private JLabel logoLabel = new JLabel("SocketTest v 3.0", logo,
             JLabel.CENTER);
