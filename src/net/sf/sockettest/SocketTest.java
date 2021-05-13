@@ -41,10 +41,10 @@ public class SocketTest extends JFrame {
         services.put(SERVER, server);
         services.put(UDP, udp);
 
-        tabbedPane.addTab("Client", ball, (Component) client, "Test any server");
-        tabbedPane.addTab("Server", ball, server, "Test any client");
-        tabbedPane.addTab("Udp", ball, udp, "Test any UDP Client or Server");
-        tabbedPane.addTab("About", ball, about, "About SocketTest");
+        tabbedPane.addTab("客户端", ball, (Component) client, "测试一个 TCP 服务器");
+        tabbedPane.addTab("服务器", ball, server, "测试一个 TCP 客户端");
+        tabbedPane.addTab("UDP", ball, udp, "测试一个 UDP 客户端或者服务端");
+        tabbedPane.addTab("关于", ball, about, "关于 SocketTest");
 
         tabbedPane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         cp.add(tabbedPane);
